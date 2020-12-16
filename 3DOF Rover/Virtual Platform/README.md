@@ -1,1 +1,2 @@
-
+For the virtual platform, PIDcontrol.ttt is a VREP simulation. Initially simulation can be run directly by commenting out the first block of lua code in the actuation function and with just altering the lua code to input desired x-direction, y-direction and desired angle (des_x, des_y and des_angle). To run the simulation with MATLAB inputs, comment out the (des_x, des_y and des_angle) variables and uncomment the first block of code in the actuation code. Run the simulation and open the 
+takinginputFromMatlab.m file. Make sure all the files in this repository are in the same folder and run the matlab code. give inputs as [x, y, angle(degrees)] and the rover will move to the dircetion and angle.
